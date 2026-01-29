@@ -2,6 +2,7 @@
 :root {
     --main: #b4d4da;
     --main2: #6b9197;
+    --main3: #416268;
 }
 
 body {
@@ -60,6 +61,7 @@ main {
     transition: ease 300ms;
     text-decoration: none;
     color: white;
+    top: 0;
 }
 
 .blog-link * {
@@ -69,6 +71,7 @@ main {
 .blog-link:hover {
     cursor: pointer;
     top: 3px;
+    background-color: var(--main3);
 }
 
 .blog-title {
