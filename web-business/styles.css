@@ -1,6 +1,7 @@
 
 :root {
     --main: #b4d4da;
+    --main2: #6b9197;
 }
 
 body {
@@ -13,6 +14,14 @@ body {
 
 * {
     box-sizing: border-box;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
 }
 
 p {
@@ -35,4 +44,33 @@ main {
     flex-direction: column;
     align-items: center;
     padding: 30px;
+    gap: 20px;
+}
+
+.blog-link {
+    background-color: var(--main2);
+    width: 100%;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+    position: relative;
+    transition: ease 300ms;
+    text-decoration: none;
+    color: white;
+}
+
+.blog-link * {
+    margin: 0;
+}
+
+.blog-link:hover {
+    cursor: pointer;
+    top: 3px;
+}
+
+.blog-title {
+    font-size: 30px;
 }
