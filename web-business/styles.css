@@ -1,0 +1,33 @@
+
+:root {
+    --main: #b4d4da;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--main);
+    display: flex;
+    justify-content: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.my-pic {
+    height: 150px;
+    border-radius: 100px;
+}
+
+main {
+    background-color: white;
+    width: calc(100vw - 20px);
+    max-width: 900px;
+    margin-top: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
