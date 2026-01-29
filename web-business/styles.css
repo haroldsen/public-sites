@@ -15,6 +15,11 @@ body {
     box-sizing: border-box;
 }
 
+p {
+    line-height: 1.5em;
+    font-size: 18px;
+}
+
 .my-pic {
     height: 150px;
     border-radius: 100px;
