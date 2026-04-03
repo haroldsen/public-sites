@@ -10,6 +10,6 @@ populateBlogData(post);
 function populateBlogData(post) {
     const mainElement = document.getElementsByTagName('main')[0];
     mainElement.insertAdjacentHTML('beforeend', `<h1>${post.title}</h1>`);
-    mainElement.insertAdjacentHTML('beforeend', `<p>${post.content}</p>`);
-    mainElement.insertAdjacentHTML('beforeend', `<p>${post.date}</p>`);
+    mainElement.insertAdjacentHTML('beforeend', `${post.content}`);
+    mainElement.insertAdjacentHTML('beforeend', `<p class="date">${post.date}</p>`);
 }
